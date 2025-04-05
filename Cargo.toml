@@ -1,0 +1,17 @@
+[package]
+name = "simd-cmp"
+version = "0.1.0"
+edition = "2021"
+
+# Enable nightly features
+[features]
+simd = []
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+memchr = "2.6"
+
+[dev-dependencies]
+criterion = "0.5"
+rand = "0.8"
+tempfile = "3.8"
