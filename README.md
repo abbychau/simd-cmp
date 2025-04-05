@@ -2,7 +2,7 @@
 
 This project implements a file comparison utility similar to Linux/macOS `cmp`, but using SIMD instructions from Rust's standard library to accelerate the comparison.
 
-[![Build and Release](https://github.com/abbychau/simd-cmp/actions/workflows/build.yml/badge.svg)](https://github.com/abbychau/simd-cmp/actions/workflows/build.yml)
+[![Rust](https://github.com/abbychau/simd-cmp/actions/workflows/rust.yml/badge.svg)](https://github.com/abbychau/simd-cmp/actions/workflows/rust.yml)
 
 ## Requirements
 
